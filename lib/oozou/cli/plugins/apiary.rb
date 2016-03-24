@@ -19,7 +19,7 @@ module Oozou
         Oozou::CLI::Plugins::Apiary,
         'apiary',
         'apiary <command>',
-        'Apiary'
+        'Apiary related commands'
       )
     end
   end

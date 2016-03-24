@@ -19,7 +19,7 @@ module Oozou
         Oozou::CLI::Plugins::Circleci,
         'circleci',
         'circleci <command>',
-        'CircleCI'
+        'CircleCI related commands'
       )
     end
   end

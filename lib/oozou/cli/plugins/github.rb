@@ -19,7 +19,7 @@ module Oozou
         Oozou::CLI::Plugins::Github,
         'github',
         'github <command>',
-        'Github'
+        'GitHub related commands'
       )
     end
 

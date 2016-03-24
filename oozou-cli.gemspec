@@ -6,11 +6,11 @@ require 'oozou/cli/version'
 Gem::Specification.new do |spec|
   spec.name          = "oozou-cli"
   spec.version       = Oozou::CLI::VERSION
-  spec.authors       = ["consti"]
-  spec.email         = ["consti@consti.de"]
+  spec.authors       = ["Constantin Hofstetter"]
+  spec.email         = ["constantin@oozou.com"]
 
-  spec.summary       = %q{OOZOU CLI}
-  spec.description   = %q{OOZOU CLI}
+  spec.summary       = %q{OOZOU command line interface to maintain and initialize new projects}
+  spec.description   = %q{OOZOU CLI sole goal is to make project creation and maintenance a little easier. Start with `oozou help` to see all commands.}
   spec.homepage      = "https://oozou.com"
   spec.license       = "MIT"
 
