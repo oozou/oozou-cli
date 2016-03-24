@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe Oozou::Cli do
   it 'has a version number' do
-    expect(Oozou::Cli::VERSION).not_to be nil
+    expect(Oozou::CLI::VERSION).not_to be nil
   end
 
   it 'does something useful' do
