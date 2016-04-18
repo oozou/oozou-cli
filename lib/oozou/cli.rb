@@ -23,6 +23,17 @@ module Oozou
         end
         puts ".oozou created successfully"
       end
+
+      desc "new APP_NAME", "Create a new app, based on rails template"
+      def new(app_name)
+        fail "APP_NAME is missing" if app_name.nil?
+        `mkdir #{app_name} &&
+         cd #{app_name} &&
+         git clone git@github.com:oozou/rails-template.git --single-branch ./ &&
+         git remote rename origin template &&
+         git remote add origin git@github.com:oozou/#{app_name}.git &&
+         git checkout -b develop`
+      end
     end
 
     def self.config(key)
